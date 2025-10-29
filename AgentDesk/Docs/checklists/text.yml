@@ -1,0 +1,20 @@
+criteria:
+  - id: tone
+    description: "Соответствие заданному тону и голосу бренда"
+    severity: medium
+  - id: facts
+    description: "Проверка фактических утверждений"
+    severity: high
+  - id: format
+    description: "Структура, заголовки, списки и CTA"
+    severity: medium
+  - id: uniqueness
+    description: "Проверка уникальности, отсутствие плагиата"
+    severity: high
+  - id: compliance
+    description: "Соответствие ToS, отсутствие запрещённых обещаний"
+    severity: high
+verdicts:
+  accept: "Все критерии выполнены, можно передавать клиенту"
+  revise: "Обнаружены замечания, требуется доработка"
+  escalate: "Критические нарушения, передать менеджеру"
