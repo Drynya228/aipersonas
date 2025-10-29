@@ -1,0 +1,20 @@
+criteria:
+  - id: terminology
+    description: "Соответствие терминам и глоссарию"
+    severity: high
+  - id: meaning
+    description: "Сохранение смысла и намерения оригинала"
+    severity: high
+  - id: localization
+    description: "Адаптация под локальные реалии, формат дат/валют"
+    severity: medium
+  - id: punctuation
+    description: "Пунктуация, орфография и согласование"
+    severity: medium
+  - id: glossary
+    description: "Использование утверждённого глоссария"
+    severity: high
+verdicts:
+  accept: "Перевод готов к отправке"
+  revise: "Нужны корректировки"
+  escalate: "Критические проблемы — привлечь менеджера"
