@@ -1,0 +1,20 @@
+criteria:
+  - id: build
+    description: "Сборка проходит без ошибок"
+    severity: high
+  - id: tests
+    description: "Тесты запускаются и проходят"
+    severity: high
+  - id: style
+    description: "Код соответствует гайдлайнам Swift"
+    severity: medium
+  - id: security
+    description: "Нет утечек секретов, ввод не доверяется"
+    severity: high
+  - id: ci
+    description: "Добавлены проверки в CI"
+    severity: medium
+verdicts:
+  accept: "Готово к релизу"
+  revise: "Требуются правки"
+  escalate: "Критические ошибки — остановить поставку"
